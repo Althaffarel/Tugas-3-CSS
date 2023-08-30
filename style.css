@@ -1,0 +1,24 @@
+h1{
+    color: rgb(103, 224, 28);
+    font-family: arial;
+    font-size: 50px;
+    text-align: center;
+  }
+
+p{
+    text: ident 30px;
+    line-height: 1.5;   
+    font-size: 16px;
+    color: rgb(195, 0, 255);
+    font-family: verdana; }
+
+li{
+    color: rgb(255, 0, 208);
+    font-size: 12px;
+    font-family: cursive;}
+
+    /*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/ 
+/*syntax CSS adalah selector(properties: value;}*/
+
+/*selector dengan nama tag*/
+

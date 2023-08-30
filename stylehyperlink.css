@@ -1,0 +1,28 @@
+a:link{
+    color : mediumaquamarine
+}
+a:visited{
+    color : blanchedalmond
+}
+a:hoover{
+    color : red
+}
+a:active{
+    color : orchid
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    background-color: aliceblue;
+    color : peru;
+    text-align: center;
+    font-size: 28px;
+}
+.button:hover {background-color: aquamarine;}
+.button:active {
+    background-color: cornsilk;
+    box-shadow: 0 5px #642; 
+}
+
+    
+

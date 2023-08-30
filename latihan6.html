@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+
+  <style>
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50px;
+        display: block;
+        margin: 0px auto 0px auto;
+    }
+  
+  h1{
+    color: rgb(115, 68, 119);
+}
+
+/*elector id*/
+#judul{
+    color: palevioletred;
+}
+/*selector class*/
+.tengah{
+    align-self: center; 
+    color: rgb(163, 100, 148);
+}
+
+/*Multy selector*/ 
+h2, h3, h4{
+    color: rgb(185, 98, 104);
+}
+
+/*lebih sepesifik lagi bisa*/
+
+h2.tengah{
+    color: pink;
+}</style>
+</head>
+<body>
+    <img src="zx.png">
+
+    <!-- id= memberi tanda khusus elemen, tidak boleh sama-->
+    <h1 id="judul">kenalin</h1>
+    <!-- class= bisa dipakai berkali2, kalau id tidak digunakan berkali2-->
+    <h1 class="tengah"> nama</h1>
+    <h2 class="tengah"> saya</h2>
+    <h3 class="tengah">arel</h3>
+</body>
+</html>
